@@ -23,7 +23,7 @@ stdin.on('data', data => {
   } else {
     fs.appendFile(
       linkToFile,
-      `${data}`,
+      `${dataString}`,
       (error) => {
         if (error) throw error;
       }
