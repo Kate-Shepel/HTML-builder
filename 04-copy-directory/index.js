@@ -10,8 +10,8 @@ async function createFolder() {
 }
 
 async function deleteFolder() {
-  await fs.promises.rm(pathToDestFolder, { recursive:true, force: true });
-  // console.log('Folder is deleted');
+  await fs.promises.rm(pathToDestFolder, { recursive: true, force: true });
+  // console.log('Folder with its files is deleted');
 }
 
 async function copyFilesToDestFolder() {
