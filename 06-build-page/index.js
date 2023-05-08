@@ -82,6 +82,6 @@ async function buildPage() {
   } catch (error) {
     console.error('error', error);
   }
-};
+}
 
 buildPage();
